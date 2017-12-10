@@ -1,6 +1,6 @@
 ## uMatrix Rules
 
-This repo is at `Site` level.
+This repo is at `Site` level with applying `* * cookie block`.
 
 
 ### READ MORE [HERE](http://umatrix-rules.github.io/)
