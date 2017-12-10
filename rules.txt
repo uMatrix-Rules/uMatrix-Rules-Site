@@ -18,6 +18,7 @@ referrer-spoof: bilibili.com false
 referrer-spoof: dropbox.com false
 referrer-spoof: firefox.com false
 * * * block
+* * cookie block
 * * css allow
 * * frame block
 * * image allow
@@ -51,6 +52,7 @@ referrer-spoof: firefox.com false
 163.com ursdoccdn.nosdn.127.net script allow
 163.com wr.da.netease.com script allow
 acfun.cn cdn.aixifan.com script allow
+aimp.ru aimp.ru cookie allow
 aliexpress.com i.alicdn.com script allow
 alipay.com a.alipayobjects.com script allow
 alipay.com as.alipayobjects.com script allow
@@ -74,6 +76,8 @@ baidu.com mu5.bdstatic.com script allow
 baidu.com mu6.bdstatic.com script allow
 baidu.com mu7.bdstatic.com script allow
 baidu.com online0.map.bdimg.com script allow
+baidu.com pan.baidu.com cookie allow
+baidu.com pcs.baidu.com cookie allow
 baidu.com s1.pan.bdstatic.com script allow
 baidu.com tb1.bdstatic.com script allow
 baidu.com webmap0.map.bdstatic.com script allow
@@ -88,6 +92,7 @@ bbc.com ssl.bbc.co.uk xhr allow
 bbc.com static.bbc.co.uk script allow
 bbc.com static.bbci.co.uk script allow
 bbc.com www.bbc.co.uk script allow
+bilibili.com acgvideo.com xhr allow
 bilibili.com acgvideo.com media allow
 bilibili.com acgvideo.com xhr allow
 bilibili.com s1.hdslb.com script allow
@@ -102,6 +107,7 @@ booking.com q-ak.bstatic.com script allow
 booking.com r-ak.bstatic.com script allow
 csdn.net csdnimg.cn script allow
 dailymotion.com static1.dmcdn.net script allow
+deviantart.com deviantart.com cookie allow
 deviantart.com st.deviantart.net script allow
 discordapp.com discord.gg xhr allow
 douyu.com apm.douyucdn.cn xhr allow
@@ -123,6 +129,7 @@ github.com pages-themes.github.io script allow
 github.com githubusercontent.com xhr allow
 github.com render.githubusercontent.com frame allow
 github.com render.githubusercontent.com script allow
+godaddy.com img1.wsimg.com script allow
 google.com content.googleapis.com frame allow
 google.com content.googleapis.com script allow
 google.com ssl.gstatic.com media allow
@@ -134,7 +141,6 @@ google.com translate.googleusercontent.com frame allow
 google.com translate.googleusercontent.com script allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
-godaddy.com img1.wsimg.com script allow
 hbr.org cdns.gigya.com script allow
 hbr.org cdns.us1.gigya.com frame allow
 hbr.org cdns.us1.gigya.com script allow
@@ -167,6 +173,7 @@ jd.com static.360buyimg.com script allow
 kiva.org client.perimeterx.net script allow
 kiva.org www-kiva-org.global.ssl.fastly.net script allow
 kiva.org www-kiva-org.global.ssl.fastly.net xhr allow
+linkedin.com linkedin.com cookie  allow
 linkedin.com static.licdn.com script allow
 live.com account.azureedge.net script allow
 live.com auth.gfx.ms script allow
@@ -314,6 +321,7 @@ twitch.tv web-cdn.ttvnw.net script allow
 twitter.com twimg.com script allow
 twitter.com assets.pscp.tv script allow
 twitter.com ton.twimg.com script allow
+twitter.com twitter.com cookie allow
 twitter.com video.twimg.com media allow
 twitter.com video.twimg.com xhr allow
 twitter.com www.pscp.tv frame allow
@@ -331,6 +339,7 @@ weibo.com js1.t.sinajs.cn script allow
 weibo.com js2.t.sinajs.cn script allow
 weibo.com jss.t.sinajs.cn script allow
 weibo.com login.sina.com.cn script allow
+weibo.com weibo.com cookie allow
 wikipedia.org cxserver.wikimedia.org xhr allow
 wikipedia.org login.wikimedia.org script allow
 wikipedia.org meta.wikimedia.org script allow
@@ -362,3 +371,4 @@ youku.com ykimg.com media allow
 youtube.com google.com cookie allow
 youtube.com google.com script allow
 youtube.com googlevideo.com xhr allow
+youtube.com youtube.com cookie allow
