@@ -381,6 +381,7 @@ sina.com.cn newspush.sinajs.cn xhr allow
 sina.com.cn passport.weibo.com frame allow
 sina.com.cn passport.weibo.com script allow
 sina.com.cn s.weibo.com script allow
+sina.com.cn www.sinaimg.cn script allow
 sina.com.hk ad.sinahk.net script allow
 sina.com.tw api.tw.weibo.com script allow
 sina.com.tw img1.w.sina.tw script allow
