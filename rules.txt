@@ -189,17 +189,19 @@ github.com render.githubusercontent.com frame allow
 github.com render.githubusercontent.com script allow
 
 #Google
-google.com content.googleapis.com frame allow
-google.com content.googleapis.com script allow
-google.com ssl.gstatic.com media allow
-google.com ssl.gstatic.com script allow
-google.com ssl.gstatic.com xhr allow
-google.com translate.googleapis.com script allow
-google.com translate.googleapis.com xhr allow
-google.com translate.googleusercontent.com frame allow
-google.com translate.googleusercontent.com script allow
+accounts.google.com ssl.gstatic.com xhr allow
+drive.google.com ssl.gstatic.com script allow
 google.com www.gstatic.com script allow
-google.com www.gstatic.com xhr allow
+google.com ssl.gstatic.com script allow
+google.co apis.google.com script allow
+google.co www.gstatic.com script allow
+google.co www.gstatic.com xhr allow
+google.com ssl.gstatic.com media allow
+myaccount.google.com www.gstatic.com xhr allow
+translate.google.com translate.googleapis.com script allow
+translate.google.com translate.googleapis.com xhr allow
+translate.google.com translate.googleusercontent.com frame allow
+translate.google.com translate.googleusercontent.com script allow
 
 #GoDaddy
 godaddy.com img1.wsimg.com script allow
