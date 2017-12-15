@@ -122,6 +122,8 @@ tieba.baidu.com tb1.bdstatic.com script allow
 v.baidu.com vs5.bdstatic.com script allow
 v.baidu.com vs6.bdstatic.com script allow
 zhidao.baidu.com iknowpc.bdimg.com script allow
+wenku.baidu.com wkbos.bdimg.com script allow
+wenku.baidu.com wkstatic.bdimg.com script allow
 
 #BBC
 bbc.com mybbc.files.bbci.co.uk script allow
