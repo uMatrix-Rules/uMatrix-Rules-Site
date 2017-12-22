@@ -388,6 +388,9 @@ sina.com.tw wx4.sinaimg.cn xhr allow
 sohu.com m1.auto.itc.cn script allow
 sohu.com statics.itc.cn script allow
 
+#SONY
+sony.com.hk sony.eu script allow
+
 #SourceForge
 sourceforge.net a.fsdn.com script allow
 
