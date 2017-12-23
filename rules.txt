@@ -107,7 +107,6 @@ amazon.com images-na.ssl-images-amazon.com script allow
 appinn.com cdn.doublemax.net script allow
 
 #Baidu
-baidu.com fex.bdstatic.com script allow
 baike.baidu.com bkssl.bdimg.com script allow
 map.baidu.com mapor0.bdimg.com script allow
 map.baidu.com webmap0.bdimg.com script allow
@@ -493,6 +492,12 @@ weibo.com js2.t.sinajs.cn script allow
 weibo.com jss.t.sinajs.cn script allow
 weibo.com login.sina.com.cn script allow
 weibo.com weibo.com cookie allow
+
+#Wikia
+wikia.com s3.amazonaws.com script allow
+wikia.com slot1-images.wikia.nocookie.net script allow
+wikia.com vignette.wikia.nocookie.net media allow
+wikia.com static.wikia.nocookie.net script allow
 
 #Wikipedia
 wikipedia.org cxserver.wikimedia.org xhr allow
