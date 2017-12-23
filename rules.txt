@@ -37,6 +37,7 @@ referrer-spoof: firefox.com false
 * cloudfront.net script allow
 * code.jquery.com script allow
 * maxcdn.bootstrapcdn.com script allow
+* unpkg.com script allow
 
 #163
 163.com ursdoccdn.nosdn.127.net script allow
@@ -145,6 +146,8 @@ bilibili.com s2.hdslb.com script allow
 bilibili.com s3.hdslb.com script allow
 bilibili.com static.hdslb.com media allow
 bilibili.com static.hdslb.com script allow
+passport.bilibili.com api.geetest.com script allow
+passport.bilibili.com static.geetest.com script allow
 
 #BitBucket
 bitbucket.org ace-cdn.atlassian.com script allow
@@ -328,6 +331,8 @@ sharepoint.com word-view.officeapps.live.com frame allow
 mega.nz mega.co.nz xhr allow
 
 #Mozilla
+developer.mozilla.org mdn.mozillademos.org frame allow
+developer.mozilla.org mdn.mozillademos.org script allow
 firefox.com mozilla.net script allow
 mozilla.org mozilla.net script allow
 mozilla.org cdn-production.discourse.mozilla-community.org script allow
@@ -369,6 +374,7 @@ pixiv.net pximg.net xhr allow
 qq.com captcha.gtimg.com frame allow
 qq.com captcha.gtimg.com script allow
 qq.com rescdn.qqmail.com script allow
+user.qzone.qq.com qzonestyle.gtimg.cn script allow
 
 #Reddit
 reddit.com g.redditmedia.com media allow
@@ -398,6 +404,9 @@ sina.com.tw wx4.sinaimg.cn xhr allow
 #Sohu
 sohu.com m1.auto.itc.cn script allow
 sohu.com statics.itc.cn script allow
+
+#SONY
+sony.com.hk sony.eu script allow
 
 #SourceForge
 sourceforge.net a.fsdn.com script allow
