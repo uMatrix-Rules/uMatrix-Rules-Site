@@ -331,12 +331,13 @@ sharepoint.com word-view.officeapps.live.com frame allow
 mega.nz mega.co.nz xhr allow
 
 #Mozilla
+accounts.firefox.com accounts-static.cdn.mozilla.net script allow
+addons.mozilla.org addons-amo.cdn.mozilla.net script allow
+advocacy.mozilla.org cloudfront.net media allow
+blog.mozilla.org netdna-ssl.com script allow
 developer.mozilla.org mdn.mozillademos.org frame allow
 developer.mozilla.org mdn.mozillademos.org script allow
-firefox.com mozilla.net script allow
-mozilla.org mozilla.net script allow
-mozilla.org cdn-production.discourse.mozilla-community.org script allow
-mozilla.org netdna-ssl.com script allow
+discourse.mozilla.org cdn-production.discourse.mozilla-community.org script allow
 
 #Netflix
 netflix.com codex.nflxext.com script allow
