@@ -163,6 +163,9 @@ deviantart.com st.deviantart.net script allow
 #Discord
 discordapp.com discord.gg xhr allow
 
+#Douban
+douban.com img3.doubanio.com script allow
+
 #Douyu
 douyu.com apm.douyucdn.cn xhr allow
 douyu.com dotcounter.douyucdn.cn xhr allow
@@ -325,9 +328,12 @@ accounts.firefox.com accounts-static.cdn.mozilla.net script allow
 addons.mozilla.org addons-amo.cdn.mozilla.net script allow
 advocacy.mozilla.org cloudfront.net media allow
 blog.mozilla.org netdna-ssl.com script allow
+developer.mozilla.org interactive-examples.mdn.mozilla.net frame allow
 developer.mozilla.org mdn.mozillademos.org frame allow
 developer.mozilla.org mdn.mozillademos.org script allow
 discourse.mozilla.org cdn-production.discourse.mozilla-community.org script allow
+support.mozilla.org location.services.mozilla.com xhr allow
+support.mozilla.org support.cdn.mozilla.net script allow
 
 #Netflix
 netflix.com codex.nflxext.com script allow
@@ -364,7 +370,7 @@ pixiv.net pximg.net xhr allow
 qq.com captcha.gtimg.com frame allow
 qq.com captcha.gtimg.com script allow
 mail.qq.com rescdn.qqmail.com script allow
-user.qzone.qq.com qzonestyle.gtimg.cn script allow
+qzone.qq.com qzonestyle.gtimg.cn script allow
 
 #Reddit
 reddit.com g.redditmedia.com media allow
@@ -389,6 +395,9 @@ sina.com.tw wx1.sinaimg.cn xhr allow
 sina.com.tw wx2.sinaimg.cn xhr allow
 sina.com.tw wx3.sinaimg.cn xhr allow
 sina.com.tw wx4.sinaimg.cn xhr allow
+
+#snipaste
+docs.snipaste.com raw.githubusercontent.com xhr allow
 
 #Sohu
 sohu.com m1.auto.itc.cn script allow
