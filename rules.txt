@@ -12,11 +12,7 @@ matrix-off: f531103c-928b-4542-a8e2-cd151bbba97e.moz-extension-scheme true
 matrix-off: localhost true
 matrix-off: opera-scheme true
 referrer-spoof: * true
-referrer-spoof: 163.com false
 referrer-spoof: behind-the-scene false
-referrer-spoof: bilibili.com false
-referrer-spoof: dropbox.com false
-referrer-spoof: firefox.com false
 * * * block
 * * cookie block
 * * css allow
@@ -41,6 +37,7 @@ referrer-spoof: firefox.com false
 * unpkg.com script allow
 
 #163
+referrer-spoof: 163.com false
 163.com ursdoccdn.nosdn.127.net script allow
 163.com wr.da.netease.com script allow
 mail.163.com mimg.127.net script allow
@@ -142,6 +139,8 @@ bbc.com static.bbci.co.uk script allow
 bbc.com www.bbc.co.uk script allow
 
 #Bilibili
+https-strict: account.bilibili.com false
+referrer-spoof: bilibili.com false
 bilibili.com acgvideo.com xhr allow
 bilibili.com acgvideo.com media allow
 bilibili.com acgvideo.com xhr allow
@@ -150,9 +149,9 @@ bilibili.com s2.hdslb.com script allow
 bilibili.com s3.hdslb.com script allow
 bilibili.com static.hdslb.com media allow
 bilibili.com static.hdslb.com script allow
+live.bilibili.com 00cdn.com xhr allow
 passport.bilibili.com api.geetest.com script allow
 passport.bilibili.com static.geetest.com script allow
-live.bilibili.com 00cdn.com xhr allow
 
 #BitBucket
 bitbucket.org ace-cdn.atlassian.com script allow
@@ -186,9 +185,11 @@ douyu.com shark.douyucdn.cn script allow
 douyu.com webconf.douyucdn.cn script allow
 
 #Dropbox
+referrer-spoof: dropbox.com false
 dropbox.com 127.0.0.1 xhr allow
 dropbox.com dropboxstatic.com script allow
 dropbox.com cfl.dropboxstatic.com xhr allow
+dropbox.com rebrand.dropboxstatic.com media allow
 
 #eBay
 ebay.com ebayrtm.com script allow
@@ -228,6 +229,10 @@ translate.google.com translate.googleapis.com script allow
 translate.google.com translate.googleapis.com xhr allow
 translate.google.com translate.googleusercontent.com frame allow
 translate.google.com translate.googleusercontent.com script allow
+
+#hackernoon
+hackernoon.com cdn-static-1.medium.com script allow
+hackernoon.com medium.com xhr allow
 
 #HBR
 hbr.org cdns.gigya.com script allow
@@ -279,6 +284,13 @@ jd.com static.360buyimg.com script allow
 
 #jianshu
 jianshu.com cdn2.jianshu.io script allow
+
+#JSFiddle
+jsfiddle.net fiddle.jshell.com frame allow
+jsfiddle.net fiddle.jshell.com script allow
+jsfiddle.net hub.togetherjs.com xhr allow
+jsfiddle.net togetherjs.com media allow
+jsfiddle.net togetherjs.com script allow
 
 #Kiva
 kiva.org client.perimeterx.net script allow
@@ -350,6 +362,7 @@ sharepoint.com word-view.officeapps.live.com frame allow
 mega.nz mega.co.nz xhr allow
 
 #Mozilla
+referrer-spoof: firefox.com false
 accounts.firefox.com accounts-static.cdn.mozilla.net script allow
 addons.mozilla.org addons-amo.cdn.mozilla.net script allow
 advocacy.mozilla.org cloudfront.net media allow
@@ -449,6 +462,9 @@ steampowered.com store.akamai.steamstatic.com script allow
 
 #Tapermonkey
 tampermonkey.net tampermonkey.global.ssl.fastly.net script allow
+
+#Teamviewer
+teamviewer.com tv-static.net script allow
 
 #TheGuardian
 theguardian.com assets.guim.co.uk script allow
