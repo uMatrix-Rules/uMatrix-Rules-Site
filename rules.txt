@@ -95,6 +95,12 @@ tmall.com uaction.alicdn.com script allow
 #AliExpress
 aliexpress.com i.alicdn.com script allow
 
+#aqicn
+aqicn.org waqi.info xhr allow
+
+#arstechnica
+arstechnica.com cdn.arstechnica.net script allow
+
 #z.cn
 amazon.cn images-cn.ssl-images-amazon.com media allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
@@ -223,6 +229,10 @@ godaddy.com img1.wsimg.com script allow
 accounts.google.com ssl.gstatic.com xhr allow
 drive.google.com content.googleapis.com frame allow
 drive.google.com content.googleapis.com script allow
+
+#If online antivirus check failed (e.g. for an archive), you have to re-confirm before download
+drive.google.com drive.google.com cookie allow
+
 drive.google.com ssl.gstatic.com script allow
 google.com www.gstatic.com script allow
 google.com ssl.gstatic.com script allow
@@ -306,6 +316,11 @@ kiva.org www-kiva-org.global.ssl.fastly.net xhr allow
 #LinkedIn
 linkedin.com linkedin.com cookie  allow
 linkedin.com static.licdn.com script allow
+
+#lofter
+lofter.com l.bst.126.net frame allow
+lofter.com l.bst.126.net script allow
+lofter.com music.ph.126.net script allow
 
 #LOL-US
 leagueoflegends.com cloudfront.net media allow
@@ -453,6 +468,9 @@ sohu.com statics.itc.cn script allow
 #SONY
 sony.com.hk sony.eu script allow
 
+#speedtest
+speedtest.net b.cdnst.net script allow
+
 #StackExchange
 stackexchange.com cdn.sstatic.net script allow
 
@@ -544,6 +562,8 @@ weibo.com js1.t.sinajs.cn script allow
 weibo.com js2.t.sinajs.cn script allow
 weibo.com jss.t.sinajs.cn script allow
 weibo.com login.sina.com.cn script allow
+weibo.com sinaimg.cn media allow
+weibo.com tjs.sjs.sinajs.cn script allow
 weibo.com weibo.com cookie allow
 
 #Wikia
