@@ -189,7 +189,10 @@ douyu.com webconf.douyucdn.cn script allow
 #Dropbox
 referrer-spoof: dropbox.com false
 dropbox.com 127.0.0.1 xhr allow
+dropbox.com api.braintreegateway.com script allow
 dropbox.com dropboxstatic.com script allow
+dropbox.com cf.dropboxpayments.com frame allow
+dropbox.com cf.dropboxpayments.com script allow
 dropbox.com cfl.dropboxstatic.com xhr allow
 dropbox.com rebrand.dropboxstatic.com media allow
 
@@ -199,6 +202,9 @@ ebay.com ebaystatic.com script allow
 
 #ESET
 eset.com esetstatic.com script allow
+
+## Facebook
+facebook.com static.xx.fbcdn.net script allow
 
 #FoxNews
 foxnews.com global.fncstatic.com script allow
@@ -227,6 +233,7 @@ google.co www.gstatic.com script allow
 google.co www.gstatic.com xhr allow
 google.com ssl.gstatic.com media allow
 myaccount.google.com www.gstatic.com xhr allow
+plus.google.com www.gstatic.com xhr allow
 translate.google.com translate.googleapis.com script allow
 translate.google.com translate.googleapis.com xhr allow
 translate.google.com translate.googleusercontent.com frame allow
@@ -602,6 +609,8 @@ youku.com ynuf.alipay.com xhr block
 youtube.com google.com cookie allow
 youtube.com google.com script allow
 youtube.com googlevideo.com xhr allow
+youtube.com s.ytimg.com script allow
+youtube.com s.ytimg.com xhr allow
 
 #zhanqi.tv
 zhanqi.tv videojj.com dobest.com bfun.cn alivecdn.com frame allow
