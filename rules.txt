@@ -273,6 +273,8 @@ essential.com maker.me script allow
 
 # Facebook
 facebook.com static.xx.fbcdn.net script allow
+facebook.com static.xx.fbcdn.net xhr allow
+facebook.com video-nrt1-1.xx.fbcdn.net xhr allow
 
 #Font Awesome
 fontawesome.com algolia.net script allow
@@ -603,6 +605,10 @@ sina.com.tw wx1.sinaimg.cn xhr allow
 sina.com.tw wx2.sinaimg.cn xhr allow
 sina.com.tw wx3.sinaimg.cn xhr allow
 sina.com.tw wx4.sinaimg.cn xhr allow
+
+#slack
+slack.com a.slack-edge.com script allow
+slack.com a.slack-edge.com xhr allow
 
 #snipaste
 docs.snipaste.com raw.githubusercontent.com xhr allow
