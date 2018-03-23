@@ -272,6 +272,11 @@ essential.com contentful.com media allow
 essential.com maker.me script allow
 
 # Facebook
+apps.facebook.com cloudsponge.com script allow
+apps.facebook.com facebook.com cookie allow
+apps.facebook.com iframe-apps.com frame allow
+apps.facebook.com iframe-apps.com script allow
+apps.facebook.com static.xx.fbcdn.net script allow
 facebook.com static.xx.fbcdn.net script allow
 facebook.com static.xx.fbcdn.net xhr allow
 facebook.com video-nrt1-1.xx.fbcdn.net xhr allow
