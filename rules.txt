@@ -809,10 +809,3 @@ zerotier.com stripe.com xhr allow
 zerotier.com stripe.network cookie allow
 zerotier.com stripe.network frame allow
 zerotier.com stripe.network script allow
-
-#zhanqi.tv
-zhanqi.tv videojj.com dobest.com bfun.cn alivecdn.com frame allow
-zhanqi.tv videojj.com dobest.com bfun.cn alivecdn.com media allow
-zhanqi.tv videojj.com dobest.com bfun.cn alivecdn.com script allow
-zhanqi.tv videojj.com dobest.com bfun.cn alivecdn.com xhr allow
-zhanqi.tv videojj.com dobest.com bfun.cn alivecdn.com cookie allow

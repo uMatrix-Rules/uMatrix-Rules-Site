@@ -1,0 +1,815 @@
+! (c) uMatrix-Rules @ https://github.com/uMatrix-Rules
+! LICENSED UNDER CC BY-NC-SA 4.0
+
+public CDN library
+    * *
+        _ a.fsdn.com script
+        _ ajax.aspnetcdn.com script
+        _ ajax.cloudflare.com script
+        _ ajax.googleapis.com script
+        _ akamaihd.net script
+        _ apps.bdimg.com script
+        _ cdn.bootcss.com script
+        _ cdn.jsdelivr.net script
+        _ cdn.staticfile.org script
+        _ cdnjs.cloudflare.com script
+        _ cloudfront.net media
+        _ cloudfront.net script
+        _ code.jquery.com script
+        _ maxcdn.bootstrapcdn.com script
+        _ s3.amazonaws.com media
+        _ s3.amazonaws.com script
+        _ ssl.fastly.net script
+        _ unpkg.com script
+
+163
+    www.163.com *
+        _ api.money.126.net script
+        _ data.live.126.net script
+        _ img1.126.net frame
+        _ img2.126.net script
+        _ static.ws.126.net script
+        _ ursdoccdn.nosdn.127.net script
+        _ wr.da.netease.com script
+    mail.163.com *
+        _ mimg.127.net script
+        _ mail.163.com ursdoccdn.nosdn.127.net script
+    music.163.com *
+        _ music.163.com img3.126.net script
+        _ music.163.com s3.music.126.net script
+    open.163.com *
+        _ open.163.com img1.ws.126.net script
+        _open.163.com nos.netease.com script
+
+Acfun
+    acfun.cn *
+         _ cdn.aixifan.com script
+
+AIMP
+    aimp.ru *
+        !for language switch
+        _ aimp.ru cookie
+
+Ali
+    alipay.com *
+        _ a.alipayobjects.com script
+        _ as.alipayobjects.com script
+        _ assets.alicdn.com script
+        _ gw.alipayobjects.com script
+        _ os.alipayobjects.com script
+        _ t.alipayobjects.com media
+        _ t.alipayobjects.com script
+    taobao.com *
+        _ a1.alicdn.com frame
+        _ aliapp.org cookie
+        _ alibaba.com cookie
+        _ alicdn.com *
+        _ alipay.com cookie
+        _ assets.alicdn.com script
+        _ ecpm.tanx.com script
+        _ g.alicdn.com cookie
+        _ g.alicdn.com frame
+        _ g.alicdn.com script
+        _ g.alicdn.com xhr
+        _ img.alicdn.com xhr
+        _ jipiao.alitrip.com script
+        _ localhost.wwbizsrv.alibaba.com script
+        _ pages.tmall.com xhr
+        _ pass.tmall.com script
+        _ t.alicdn.com script
+        _ tbip.alicdn.com script
+        _ tce.alicdn.com script
+        _ ynuf.alipay.com script
+        _ ynuf.alipay.com xhr
+    tmall.com *
+        _ amos.alicdn.com script
+        _ desc.alicdn.com script
+        _ g.alicdn.com frame
+        _ g.alicdn.com script
+        _ g.alicdn.com xhr
+        _ gy.taobao.com script
+        _ hdc1.alicdn.com script
+        _ login.taobao.com script
+        _ mdskip.taobao.com script
+        _ suggest.taobao.com script
+        _ uaction.alicdn.com script
+
+AliExpress
+    aliexpress.com *
+        _ i.alicdn.com script
+
+aqicn
+    aqicn.org
+        _ waqi.info xhr
+
+arstechnica
+    arstechnica.com *
+        _ cdn.arstechnica.net script
+
+z.cn
+    amazon.cn
+        _ images-cn.ssl-images-amazon.com media
+        _ images-cn.ssl-images-amazon.com script
+        _ images-cn.ssl-images-amazon.com xhr
+        _ m.media-amazon.com script
+
+Amazon
+    amazon.com *
+        _ a0.awsstatic.com script
+        _ images-na.ssl-images-amazon.com script
+
+Appinn
+    appinn.com *
+        _ cdn.doublemax.net script
+
+Baidu
+    baike.baidu.com *
+        _ bkssl.bdimg.com script
+    map.baidu.com *
+        _ mapor0.bdimg.com script
+        _ webmap0.bdimg.com script
+        _ webmap1.bdimg.com script
+    music.baidu.com *
+        _ mu5.bdstatic.com script
+        _ mu6.bdstatic.com script
+        _ music.baidu.com mu7.bdstatic.com script
+    news.baidu.com *
+        news.baidu.com gss0.bdstatic.com script
+    pan.baidu.com *
+        _pan.baidu.com baidupcs.com frame
+        _pan.baidu.com ss0.bdstatic.com script
+    tieba.baidu.com *
+        _tieba.baidu.com tb1.bdstatic.com media
+        _tieba.baidu.com tb1.bdstatic.com script
+    v.baidu.com *
+        _v.baidu.com vs5.bdstatic.com script
+        _v.baidu.com vs6.bdstatic.com script
+    zhidao.baidu.com *
+        _ iknowpc.bdimg.com script
+    wenku.baidu.com *
+        _ wkbos.bdimg.com script
+        _ wkstatic.bdimg.com script
+
+BBC
+    bbc.com *
+        bbc.com mybbc.files.bbci.co.uk script
+bbc.com nav.files.bbci.co.uk script
+bbc.com search-suggest.api.bbci.co.uk xhr
+bbc.com search.files.bbci.co.uk script
+bbc.com ssl.bbc.co.uk xhr
+bbc.com static.bbc.co.uk script
+bbc.com static.bbci.co.uk script
+bbc.com www.bbc.co.uk script
+
+!Bilibili
+https-strict: account.bilibili.com false
+referrer-spoof: bilibili.com false
+bilibili.com acgvideo.com xhr
+bilibili.com acgvideo.com media
+bilibili.com acgvideo.com xhr
+bilibili.com s1.hdslb.com script
+bilibili.com s2.hdslb.com script
+bilibili.com s3.hdslb.com script
+bilibili.com static.hdslb.com media
+bilibili.com static.hdslb.com script
+live.bilibili.com 00cdn.com xhr
+passport.bilibili.com api.geetest.com script
+passport.bilibili.com static.geetest.com script
+
+!biligame
+biligame.com bilibili.com cookie
+biligame.com bilibili.com script
+biligame.com bilibiligame.net script
+biligame.com biligame.net script
+biligame.com hdslb.com script
+
+!BitBucket
+bitbucket.org ace-cdn.atlassian.com script
+bitbucket.org bitbucket-marketing-cdn.atlassian.com script
+
+!BlizardCN
+blizzard.cn netease.com script
+
+!Booking.com
+booking.com q-ak.bstatic.com script
+booking.com r-ak.bstatic.com script
+
+!BrowserStack
+browserstack.com auth0.com script
+browserstack.com ravenjs.com script
+browserstack.com typekit.net script
+
+!CloudFlare
+cloudflare.com cloudflareapps.com xhr
+cloudflare.com filepicker.io cookie
+cloudflare.com filepicker.io frame
+cloudflare.com filepicker.io script
+
+!CSDN
+csdn.net csdnimg.cn script
+
+!CODING
+coding.net qbox.me script
+
+!coindesk
+coindesk.com optmstr.com xhr
+coindesk.com optnmstr.com script
+coindesk.com pub.network script
+
+!Currencio
+currencio.co appsha1.cointraffic.io script
+currencio.co gstatic.com script
+
+!dedikuoti.lt
+dedikuoti.lt iv.lt script
+
+!DailyMotion
+dailymotion.com static1.dmcdn.net script
+
+!DeviantArt
+deviantart.com deviantart.com cookie
+deviantart.com st.deviantart.net script
+
+!DigitalOcean
+digitalocean.com statuspage.io xhr
+digitalocean.com stripe.com script
+
+!Discord
+discordapp.com discord.gg xhr
+
+!Douban
+douban.com img3.doubanio.com script
+
+!Douyu
+douyu.com apm.douyucdn.cn xhr
+douyu.com dotcounter.douyucdn.cn xhr
+douyu.com shark.douyucdn.cn script
+douyu.com webconf.douyucdn.cn script
+
+!Dropbox
+referrer-spoof: dropbox.com false
+dropbox.com 127.0.0.1 xhr
+dropbox.com api.braintreegateway.com script
+dropbox.com dropboxstatic.com script
+dropbox.com cf.dropboxpayments.com frame
+dropbox.com cf.dropboxpayments.com script
+dropbox.com cfl.dropboxstatic.com xhr
+dropbox.com rebrand.dropboxstatic.com media
+
+!eBay
+ebay.com ebayrtm.com script
+ebay.com ebaystatic.com script
+
+!ef.js
+ef.js.org classicoldsong.github.io frame
+ef.js.org classicoldsong.github.io script
+ef.js.org jsfiddle.net frame
+ef.js.org jsfiddle.net script
+ef.js.org jshell.net frame
+ef.js.org jshell.net script
+
+!ESET
+eset.com esetstatic.com script
+
+!Essential
+essential.com contentful.com media
+essential.com maker.me script
+
+! Facebook
+apps.facebook.com cloudsponge.com script
+apps.facebook.com facebook.com cookie
+apps.facebook.com iframe-apps.com frame
+apps.facebook.com iframe-apps.com script
+apps.facebook.com static.xx.fbcdn.net script
+facebook.com static.xx.fbcdn.net script
+facebook.com static.xx.fbcdn.net xhr
+facebook.com video-nrt1-1.xx.fbcdn.net xhr
+
+!Font Awesome
+fontawesome.com algolia.net script
+fontawesome.com algolia.net xhr
+fontawesome.com algolianet.com script
+fontawesome.com algolianet.com xhr
+fontawesome.com fortawesome.com script
+fontawesome.com intercom.io script
+
+!FoxNews
+foxnews.com global.fncstatic.com script
+
+!gamer.tw
+gamer.com.tw i2.bahamut.com.tw script
+
+!GitHub
+github.com s3.amazonaws.com xhr
+github.com pages-themes.github.io frame
+github.com pages-themes.github.io script
+github.com githubapp.com cookie
+github.com githubusercontent.com xhr
+github.com render.githubusercontent.com frame
+github.com render.githubusercontent.com script
+github.com s3.amazonaws.com xhr
+github.com sourcegraph.com xhr
+
+!GitLab
+gitlab.com gitlab-static.net script
+
+!GoDaddy
+godaddy.com img1.wsimg.com script
+
+!Google
+accounts.google.com ssl.gstatic.com xhr
+drive.google.com content.googleapis.com frame
+drive.google.com content.googleapis.com script
+
+!If online antivirus check failed (e.g. for an archive), you have to re-confirm before download
+drive.google.com drive.google.com cookie
+
+drive.google.com ssl.gstatic.com script
+google.com www.gstatic.com script
+google.com ssl.gstatic.com script
+google.co apis.google.com script
+google.co www.gstatic.com script
+google.co www.gstatic.com xhr
+google.com ssl.gstatic.com media
+myaccount.google.com www.gstatic.com xhr
+plus.google.com www.gstatic.com xhr
+translate.google.com translate.googleapis.com script
+translate.google.com translate.googleapis.com xhr
+translate.google.com translate.googleusercontent.com frame
+translate.google.com translate.googleusercontent.com script
+
+!Gradle
+gradle.org discourse.org script
+
+!hackernoon
+hackernoon.com cdn-static-1.medium.com script
+hackernoon.com medium.com xhr
+
+!HBR
+hbr.org cdns.gigya.com script
+hbr.org cdns.us1.gigya.com frame
+hbr.org cdns.us1.gigya.com script
+
+!HongkongPost
+hongkongpost.hk hongkongpost.hk cookie
+
+!HTML5Test
+html5test.com api.whichbrowser.net script
+
+!HuffingtonPost
+huffingtonpost.com s.m.huffpost.com script
+huffingtonpost.com s.m.huffpost.com xhr
+
+!Humble Bundle
+humblebundle.com xray.games xhr
+
+!Huomao
+huomao.com huotaotv.cn frame
+huomao.com huotaotv.cn media
+huomao.com huotaotv.cn script
+huomao.com huotaotv.cn xhr
+huomao.com huotaotv.cn cookie
+
+!ICOConvert
+icoconvert.com vpnur.com script
+
+!Ifeng
+ifeng.com c0.ifengimg.com script
+ifeng.com c1.ifengimg.com script
+ifeng.com h2.ifengimg.com script
+ifeng.com js.ifengimg.com script
+ifeng.com m0.ifengimg.com script
+ifeng.com m1.ifengimg.com script
+ifeng.com m3.ifengimg.com script
+ifeng.com p0.ifengimg.com media
+ifeng.com p0.ifengimg.com script
+ifeng.com y0.ifengimg.com script
+ifeng.com y1.ifengimg.com script
+
+!Instagram
+instagram.com assets.tumblr.com frame
+instagram.com assets.tumblr.com script
+instagram.com cdn.rawgit.com script
+instagram.com instagram.tumblr.com media
+instagram.com static.xx.fbcdn.net script
+instagram.com www.tumblr.com frame
+instagram.com www.tumblr.com other
+instagram.com www.tumblr.com script
+
+!JD
+jd.com 3.cn script
+jd.com misc.360buyimg.com script
+jd.com static.360buyimg.com script
+
+!jianshu
+jianshu.com cdn2.jianshu.io script
+
+!JSFiddle
+jsfiddle.net fiddle.jshell.com frame
+jsfiddle.net fiddle.jshell.com script
+jsfiddle.net hub.togetherjs.com xhr
+jsfiddle.net togetherjs.com media
+jsfiddle.net togetherjs.com script
+
+!Kiva
+kiva.org client.perimeterx.net script
+kiva.org www-kiva-org.global.ssl.fastly.net xhr
+
+!Kotlin
+kotlinlang.org discourse-cdn-sjc1.com script
+
+!LocalBitcoins
+localbitcoins.com cdn.livechatinc.com script
+localbitcoins.com cdn.mxpnl.com script
+localbitcoins.com csi.gstatic.com image
+localbitcoins.com gstatic.com script
+localbitcoins.com js-agent.newrelic.com script
+localbitcoins.com livechatinc.com cookie
+localbitcoins.com livechatinc.com script
+
+!LinkedIn
+linkedin.com linkedin.com cookie 
+linkedin.com static.licdn.com script
+
+!lofter
+lofter.com l.bst.126.net frame
+lofter.com l.bst.126.net script
+lofter.com music.ph.126.net script
+
+!LOL-US
+leagueoflegends.com ekg.riotgames.com xhr
+leagueoflegends.com lolstatic-a.akamaihd.net xhr
+
+!Material Design
+material.io gstatic.com script
+material.io storage.googleapis.com media
+
+!Mega
+mega.nz mega.co.nz xhr
+
+!Microsoft
+live.com account.azureedge.net script
+live.com auth.gfx.ms script
+live.com az725175.vo.msecnd.net script
+live.com browser.pipe.aria.microsoft.com xhr
+live.com loki.delve.office.com xhr
+live.com mem.gfx.ms script
+live.com office.net media
+live.com office.net script
+live.com ow1.res.office365.com script
+live.com ow1.res.office365.com xhr
+live.com owamail.azureedge.net xhr
+live.com r1.res.office365.com script
+live.com r1.res.office365.com xhr
+live.com r4.res.office365.com xhr
+live.com res.delve.office.com script
+live.com sharepoint.com frame
+live.com statics-uhf-eus.akamaized.net script
+live.com web.vortex.data.microsoft.com other
+live.com web.vortex.data.microsoft.com script
+microsoft.com assets.onestore.ms script
+microsoft.com auth.gfx.ms script
+microsoft.com i2-msdn.sec.s-msft.com script
+microsoft.com login.live.com frame
+microsoft.com login.live.com script
+microsoft.com mem.gfx.ms script
+microsoft.com mem.gfx.ms xhr
+microsoft.com statics-onestore-eas-ms-com.akamaized.net script
+microsoft.com statics-uhf-neu.akamaized.net script
+microsoftonline.com secure.aadcdn.microsoftonline-p.com script
+microsoftonline.com www.office.com frame
+microsoftonline.com www.office.com script
+office.com browser.pipe.aria.microsoft.com xhr
+office.com easofficehome.msocdn.com script
+office.com graph.microsoft.com xhr
+office.com live.com cookie
+office.com msocdn.com script
+office.com ocws.officeapps.live.com xhr
+office.com office365.com frame
+office.com r1.res.office365.com script
+office365.com browser.pipe.aria.microsoft.com xhr
+sharepoint.com browser.pipe.aria.microsoft.com xhr
+sharepoint.com contentstorage.osi.office.net script
+sharepoint.com excel.officeapps.live.com frame
+sharepoint.com powerpoint.officeapps.live.com frame
+sharepoint.com r1.res.office365.com script
+sharepoint.com sharepoint.com cookie
+sharepoint.com spoprod-a.akamaihd.net script
+sharepoint.com static.sharepointonline.com script
+sharepoint.com word-edit.officeapps.live.com frame
+sharepoint.com word-view.officeapps.live.com frame
+
+!Mi Store
+mi.com mifile.cn cookie
+mi.com mifile.cn script
+mi.com xiaomi.com cookie
+mi.com xiaomi.com script
+
+!Mixer
+mixer.com getsentry.com xhr
+mixer.com microsoft.com cookie
+mixer.com microsoft.com frame
+mixer.com microsoft.com script
+mixer.com microsoft.com xhr
+mixer.com web.vortex.data.microsoft.com frame
+mixer.com web.vortex.data.microsoft.com image
+mixer.com web.vortex.data.microsoft.com script
+mixer.com web.vortex.data.microsoft.com xhr
+mixer.com xboxlive.com xhr
+
+!Mozilla
+referrer-spoof: firefox.com false
+accounts.firefox.com accounts-static.cdn.mozilla.net script
+addons.mozilla.org addons-amo.cdn.mozilla.net script
+blog.mozilla.org netdna-ssl.com script
+developer.mozilla.org interactive-examples.mdn.mozilla.net frame
+developer.mozilla.org mdn.mozillademos.org frame
+developer.mozilla.org mdn.mozillademos.org script
+discourse.mozilla.org cdn-production.discourse.mozilla-community.org script
+support.mozilla.org location.services.mozilla.com xhr
+support.mozilla.org support.cdn.mozilla.net script
+
+!Netflix
+netflix.com codex.nflxext.com script
+netflix.com nflxext.com media
+
+!niconico
+nicovideo.jp nimg.jp script
+nicovideo.jp ptengine.jp script
+nicovideo.jp st-hatena.com script
+nicovideo.jp translate.googleapis.com xhr
+
+!NYTimes
+nytimes.com a1.nyt.com script
+nytimes.com int.nyt.com script
+nytimes.com int.nyt.com xhr
+nytimes.com s1.nyt.com xhr
+nytimes.com static01.nyt.com script
+nytimes.com vp.nyt.com media
+nytimes.com web-player.art19.com script
+
+!OLYMPICCHANNEL
+olympicchannel.com fonts.googleapis.com xhr
+olympicchannel.com google.com xhr
+olympicchannel.com gracenote.com script
+olympicchannel.com gracenote.com xhr
+olympicchannel.com s3-eu-west-1.amazonaws.com xhr
+olympicchannel.com vilynx.com script
+olympicchannel.com wp.com script
+
+!OpenLoad
+openload.co 1fiafqi.oloadcdn.net xhr
+openload.co 1fiafqj.oloadcdn.net xhr
+
+!Opera
+opera.com addons-static.operacdn.com script
+opera.com www-static.operacdn.com script
+
+!panda.tv
+panda.tv pdim.gs xiongmaoxingyan.com frame
+panda.tv pdim.gs xiongmaoxingyan.com script
+panda.tv pdim.gs xiongmaoxingyan.com xhr
+panda.tv pdim.gs xiongmaoxingyan.com cookie
+panda.tv pdim.gs xiongmaoxingyan.com media
+
+!Paypal
+paypal.com paypalobjects.com cookie
+paypal.com paypalobjects.com script
+paypal.com paypalobjects.com xhr
+
+!Pixiv
+pixiv.net d.pixiv.org frame
+pixiv.net pximg.net xhr
+
+!QQ
+qq.com captcha.gtimg.com frame
+qq.com captcha.gtimg.com script
+qq.com rescdn.qqmail.com script
+qzone.qq.com qzonestyle.gtimg.cn script
+
+!Reddit
+reddit.com g.redditmedia.com media
+reddit.com www.redditmedia.com frame
+reddit.com www.redditmedia.com script
+reddit.com www.redditstatic.com script
+
+!Sina
+sina.com.cn hq.sinajs.cn script
+sina.com.cn i0.sinaimg.cn script
+sina.com.cn n.sinaimg.cn script
+sina.com.cn newspush.sinajs.cn xhr
+sina.com.cn passport.weibo.com frame
+sina.com.cn passport.weibo.com script
+sina.com.cn s.weibo.com script
+sina.com.cn www.sinaimg.cn script
+sina.com.cn simg.sinajs.cn css
+sina.com.cn sjs.sinajs.cn script
+sina.com.cn www.sinaimg.cn script
+sina.com.hk ad.sinahk.net script
+sina.com.tw api.tw.weibo.com script
+sina.com.tw img1.w.sina.tw script
+sina.com.tw tw.weibo.com frame
+sina.com.tw tw.weibo.com script
+sina.com.tw wx1.sinaimg.cn xhr
+sina.com.tw wx2.sinaimg.cn xhr
+sina.com.tw wx3.sinaimg.cn xhr
+sina.com.tw wx4.sinaimg.cn xhr
+
+!slack
+slack.com a.slack-edge.com script
+slack.com a.slack-edge.com xhr
+
+!snipaste
+docs.snipaste.com raw.githubusercontent.com xhr
+
+!Sohu
+sohu.com m1.auto.itc.cn script
+sohu.com statics.itc.cn script
+
+!SONY
+sony.com.hk sony.eu script
+
+!speedtest
+speedtest.net b.cdnst.net script
+
+!StackExchange
+stackexchange.com cdn.sstatic.net script
+
+!StackOverflow
+stackoverflow.com cdn.sstatic.net script
+
+!Steam
+steamcommunity.com enhancedsteam.com xhr
+steamcommunity.com steamstatic.com script
+steampowered.com cdn.edgecast.steamstatic.com media
+steampowered.com enhancedsteam.com xhr
+steampowered.com store.akamai.steamstatic.com script
+steampowered.com store.edgecast.steamstatic.com script
+
+!SVG.js
+svgjs.com jsfiddle.net frame
+svgjs.com jsfiddle.net script
+svgjs.com jsfiddle.net xhr
+svgjs.com jshell.net frame
+svgjs.com jshell.net script
+svgjs.com jshell.net xhr
+svgjs.com rawgit.com script
+
+!Teamviewer
+teamviewer.com tv-static.net script
+
+!Telegraph
+!edit facility
+telegra.ph telegra.ph cookie
+
+!TheGuardian
+theguardian.com assets.guim.co.uk script
+theguardian.com assets.guim.co.uk xhr
+
+!TheTimesNews
+thetimesnews.com cdn.gatehousemedia.com script
+
+!Time
+time.com d2nx6ydw3e5y5d.cloudfront.net script
+time.com s0.wp.com script
+time.com s1.wp.com script
+time.com s2.wp.com script
+
+!TripAdvisor
+tripadvisor.com static.tacdn.com script
+
+!TSDM
+tsdm.me follow.v.t.qq.com frame
+tsdm.me follow.v.t.qq.com script
+tsdm.me mat1.gtimg.com script
+tsdm.me push.zhanzhang.baidu.com script
+tsdm.me www.tsdmw.net script
+
+!Tudou
+tudou.com account.youku.com script
+tudou.com g.alicdn.com script
+tudou.com r1.ykimg.com script
+tudou.com static.soku.com script
+tudou.com static.youku.com script
+tudou.com tip.soku.com script
+tudou.com tip.tudou.soku.com script
+
+!Twitch
+twitch.tv usher.ttvnw.net xhr
+twitch.tv sjc01.hls.ttvnw.net xhr
+twitch.tv ttvnw.net script
+twitch.tv ttvnw.net xhr
+twitch.tv twitchcdn.net script
+twitch.tv twitchcdn.net xhr
+twitch.tv twitchsvc.net script
+twitch.tv twitchsvc.net xhr
+twitch.tv web-cdn.ttvnw.net script
+
+!Twitter
+twitter.com twimg.com script
+twitter.com assets.pscp.tv script
+twitter.com twitter.com cookie
+twitter.com video.twimg.com media
+twitter.com video.twimg.com xhr
+twitter.com www.pscp.tv frame
+twitter.com www.pscp.tv script
+
+!UserVoice
+uservoice.com assets0.uvcdn.com script
+
+!V2EX
+v2ex.com v2ex.assets.uxengine.net script
+
+!vcb-s
+vcb-s.com cache.cswsadlab.com script
+
+!virustotal
+virustotal.com virustotalcloud.appspot.com script
+
+!Walmart
+walmart.com a14.wal.co script
+walmart.com b.wal.co script
+walmart.com i5.walmartimages.com script
+
+!Washingtonpost
+washingtonpost.com cdn.springserve.com media
+washingtonpost.com loxodo-ct.ext.nile.works xhr
+
+!Weibo
+weibo.com h5.sinaimg.cn script
+weibo.com js.t.sinajs.cn script
+weibo.com js1.t.sinajs.cn script
+weibo.com js2.t.sinajs.cn script
+weibo.com jss.t.sinajs.cn script
+weibo.com login.sina.com.cn script
+weibo.com sinaimg.cn media
+weibo.com tjs.sjs.sinajs.cn script
+weibo.com weibo.com cookie
+
+!Wikia
+wikia.com slot1-images.wikia.nocookie.net script
+wikia.com vignette.wikia.nocookie.net media
+wikia.com static.wikia.nocookie.net script
+
+!Wikipedia
+wikipedia.org cxserver.wikimedia.org xhr
+wikipedia.org login.wikimedia.org script
+wikipedia.org meta.wikimedia.org script
+wikipedia.org recommend.wmflabs.org xhr
+wikipedia.org upload.wikimedia.org media
+
+!Wikiwand
+wikiwand.com db0nus869y26v.cloudfront.net xhr
+wikiwand.com wikipedia.org script
+wikiwand.com s3.amazonaws.com xhr
+
+!witeboard
+witeboard.com pure-headland-59660.herokuapp.com script
+witeboard.com pure-headland-59660.herokuapp.com xhr
+witeboard.com typekit.net script
+
+!XDA
+xda-developers.com xda-cdn.com script
+
+!Yahoo
+yahoo.com jparack03.vpg.cdn.yimg.com xhr
+yahoo.com s.yimg.com frame
+yahoo.com s.yimg.com script
+yahoo.com s.yimg.com xhr
+
+!Yandex
+yandex.com yastatic.net script
+
+!Yelp
+yelp.com s3-media1.fl.yelpcdn.com script
+yelp.com s3-media2.fl.yelpcdn.com script
+yelp.com s3-media4.fl.yelpcdn.com script
+
+!Youku
+youku.com * media
+youku.com * xhr
+youku.com 127.0.0.1 script
+youku.com aeu.alicdn.com script
+youku.com af.alicdn.com script
+youku.com g.alicdn.com script
+youku.com js.ykimg.com script
+youku.com r1.ykimg.com script
+youku.com ynuf.alipay.com xhr block
+youku.com youku.com cookie
+
+!YouTube
+youtube.com google.com cookie
+youtube.com google.com script
+youtube.com googlevideo.com xhr
+youtube.com s.ytimg.com script
+youtube.com s.ytimg.com xhr
+youtube.com youtube.com cookie
+
+!zerotier
+zerotier.com stripe.com cookie
+zerotier.com stripe.com frame
+zerotier.com stripe.com script
+zerotier.com stripe.com xhr
+zerotier.com stripe.network cookie
+zerotier.com stripe.network frame
+zerotier.com stripe.network script
